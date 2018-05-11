@@ -1,0 +1,7 @@
+<!--pages/fun/fun1/cover-view/cover-view.wxml-->
+<camera bindtap='cameraTap'>
+  <cover-view>
+  <cover-image src='/image/ding.png' bindtap='imgTap'>
+  </cover-image>
+  </cover-view>
+</camera>

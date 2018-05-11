@@ -1,0 +1,9 @@
+<!--pages/fun/fun1/movealbe-view/moveable-view.wxml-->
+<movable-area>
+  <movable-view direction="all" >
+  <image  src='/image/cai.png'></image>
+  </movable-view>
+</movable-area>
+<movable-area>
+      <movable-view  direction="all" >text</movable-view>
+</movable-area>

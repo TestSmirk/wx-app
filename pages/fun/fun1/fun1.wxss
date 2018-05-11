@@ -1,0 +1,13 @@
+/* pages/fun/fun1.wxss */
+.item {
+    width: 100%;
+    background: red;
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+  height: 1rpx;
+  width: 100%;
+}

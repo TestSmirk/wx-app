@@ -1,0 +1,14 @@
+/* pages/fun/fun1/movealbe-view/moveable-view.wxss */
+image,  movable-view{
+  background: red;
+  width: 100rpx;
+  height: 100rpx;
+  direction: all;
+
+}
+
+movable-area{
+  width:100%;
+  height: 400rpx;
+  background: black;
+}

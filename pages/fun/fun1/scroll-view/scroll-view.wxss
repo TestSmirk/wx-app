@@ -1,0 +1,25 @@
+/* pages/fun/fun1/scroll-view/scroll-view.wxss */
+
+.view {
+  width: 200rpx;
+  height: 200rpx;
+  background: blue;
+  margin: 10rpx;
+  color: aqua;
+}
+
+.parent-view{
+   display: inline-block;
+  
+}
+.parent-view-hori{
+  display: flex;
+  flex-flow: column;
+}
+scroll-view{
+white-space: nowrap;
+}
+.root{
+  width: 100%;
+  height: 100%;
+}

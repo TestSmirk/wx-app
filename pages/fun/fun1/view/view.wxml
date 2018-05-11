@@ -1,0 +1,12 @@
+<!--pages/fun/fun1/view/view.wxml-->
+<view class="flax-hor">
+  <view class='blue box' hover-class="red" hover-start-time="10">1</view>
+  <view class='red box'>2</view>
+  <view class='greed box'>3</view>
+</view>
+
+<view class="flax-vir">
+  <view class='blue box'>1</view>
+  <view class='red box'>2</view>
+  <view class='greed box'>3</view>
+</view>

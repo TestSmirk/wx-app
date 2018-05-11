@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/fun/fun1/fun1",
+    "pages/fun/fun2/fun2",
+    "pages/fun/fun1/view/view",
+    "pages/fun/fun1/scroll-view/scroll-view",
+    "pages/fun/fun1/swiper/swiper",
+    "pages/fun/fun1/movealbe-view/moveable-view",
+    "pages/fun/fun1/cover-view/cover-view"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/fun/fun1/fun1",
+        "text": "fun1",
+        "iconPath": "image/videoN.png",
+        "selectedIconPath": "image/videoS.png"
+      },
+      {
+        "pagePath": "pages/fun/fun2/fun2",
+        "text": "fun2",
+        "iconPath": "image/wordN.png",
+        "selectedIconPath": "image/wordS.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

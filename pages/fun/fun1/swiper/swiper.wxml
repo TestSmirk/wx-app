@@ -1,0 +1,8 @@
+<!--pages/fun/fun1/swiper/swiper.wxml-->
+<swiper autoplay='true' indicator-dots='true'>
+  <block wx:for="{{images}}">
+  <swiper-item>
+    <image src='{{item}}'></image>
+  </swiper-item>
+  </block>
+</swiper>

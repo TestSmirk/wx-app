@@ -1,0 +1,9 @@
+<!--pages/fun/fun1.wxml-->
+<scroll-view>
+  <block wx:for="{{data}}">
+    <view class="item" bindtap='itemClick' data-name="{{item.name}}">
+      {{item.name}}
+    </view>
+    <view class='line'></view>
+  </block>
+</scroll-view>

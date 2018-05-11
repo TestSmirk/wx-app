@@ -1,0 +1,29 @@
+/* pages/fun/fun1/view/view.wxss */
+.box{
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue {
+  background: blue;
+}
+.red {
+  background: red;
+}
+.greed{
+  background: green;
+}
+.flax-hor{
+  display: flex;
+  flex-direction: row;
+   width: 100%;
+  height: 200rpx;
+}
+.flax-vir{
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200rpx;
+}

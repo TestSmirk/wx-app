@@ -1,0 +1,8 @@
+<!--index.wxml-->
+
+
+<scroll-view wx:for="{{data}}" wx:key="">
+{{index+1}}---------{{item.name}}
+</scroll-view>
+
+
