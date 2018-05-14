@@ -1,2 +1,6 @@
 <!--pages/fun/fun2/fun2.wxml-->
-<text>pages/fun/fun2/fun2.wxml</text>
+<view>
+<block wx:for="{{list}}">
+<view data-item="item" bindtap="itemclick">{{item}}</view>
+</block>
+</view>

@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/fun/fun1/fun1",
     "pages/fun/fun2/fun2",
+    "pages/fun/fun1/fun1",
+    
     "pages/fun/fun1/view/view",
     "pages/fun/fun1/scroll-view/scroll-view",
     "pages/fun/fun1/swiper/swiper",
@@ -13,18 +14,19 @@
     "pages/fun/fun1/progress/progress",
     "pages/fun/fun1/button/button",
     "pages/fun/fun1/checkbox/checkbox",
-    "pages/fun/fun1/form/form"
+    "pages/fun/fun1/form/form",
+    "pages/fun/fun2/item/item"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/fun/fun1/fun1",
+        "pagePath": "pages/fun/fun2/fun2",
         "text": "fun1",
         "iconPath": "image/videoN.png",
         "selectedIconPath": "image/videoS.png"
       },
       {
-        "pagePath": "pages/fun/fun2/fun2",
+        "pagePath": "pages/fun/fun1/fun1",
         "text": "fun2",
         "iconPath": "image/wordN.png",
         "selectedIconPath": "image/wordS.png"
@@ -34,7 +36,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Demo",
     "navigationBarTextStyle": "black"
   }
 }

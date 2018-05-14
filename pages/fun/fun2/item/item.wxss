@@ -1,0 +1,6 @@
+/* pages/fun/fun2/item/item.wxss */
+.canvas{
+  width: 100%;
+  height: 400px;
+  background: red;
+}

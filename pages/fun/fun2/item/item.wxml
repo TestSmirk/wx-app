@@ -1,0 +1,2 @@
+<canvas class="canvas" canvas-id="mycanvas_0"></canvas>
+<button bindtap='click'>click</button>
