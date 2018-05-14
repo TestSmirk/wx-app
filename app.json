@@ -6,7 +6,11 @@
     "pages/fun/fun1/scroll-view/scroll-view",
     "pages/fun/fun1/swiper/swiper",
     "pages/fun/fun1/movealbe-view/moveable-view",
-    "pages/fun/fun1/cover-view/cover-view"
+    "pages/fun/fun1/cover-view/cover-view",
+    "pages/fun/fun1/icon/icon",
+    "pages/fun/fun1/text/text",
+    "pages/fun/fun1/rich-text/rich-text",
+    "pages/fun/fun1/progress/progress"
   ],
   "tabBar": {
     "list": [

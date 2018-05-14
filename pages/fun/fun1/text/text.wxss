@@ -1,0 +1,4 @@
+/* pages/fun/fun1/text/text.wxss */
+text{
+  height: 100rpx;
+}

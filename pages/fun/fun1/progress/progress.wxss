@@ -1,0 +1,4 @@
+/* pages/fun/fun1/progress/progress.wxss */
+progress{
+  margin-top: 10rpx;
+}

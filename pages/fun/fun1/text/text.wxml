@@ -1,0 +1,5 @@
+<!--pages/fun/fun1/text/text.wxml-->
+<text >{{text}}</text>
+
+<button bindtap='add'>add</button>
+<button bindtap='remove'>remove</button>

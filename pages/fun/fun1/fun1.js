@@ -13,20 +13,20 @@ Page({
       },
       {
         "name": "swiper",
-      }, 
+      },
       {
         "name": "moveable-view"
       },
-       {
+      {
         "name": "cover-view",
       }, {
-        "name": "tencent"
+        "name": "icon"
       }, {
-        "name": "ali",
+        "name": "text",
       }, {
-        "name": "tencent"
+        "name": "rich-text"
       }, {
-        "name": "ali",
+        "name": "progress",
       }, {
         "name": "tencent"
       }, {
@@ -108,20 +108,32 @@ Page({
     var navUrl = "";
     switch (data.currentTarget.dataset.name) {
       case "view":
-      navUrl = "view/view"
+        navUrl = "view/view"
         break;
       case "scroll-view":
         navUrl = "scroll-view/scroll-view"
-      break;
+        break;
       case "swiper":
-      navUrl = "swiper/swiper"
-      break;
+        navUrl = "swiper/swiper"
+        break;
       case "moveable-view":
-        navUrl ="movealbe-view/moveable-view"
-      break;
+        navUrl = "movealbe-view/moveable-view"
+        break;
       case "cover-view":
-        navUrl ="cover-view/cover-view"
-      break;
+        navUrl = "cover-view/cover-view"
+        break;
+      case "icon":
+        navUrl = "icon/icon"
+        break;
+      case "text":
+        navUrl = "text/text"
+        break;
+      case "rich-text":
+        navUrl = "rich-text/rich-text"
+        break;
+      case "progress":
+        navUrl = "progress/progress"
+        break;
     }
     wx.navigateTo({
       url: navUrl,
