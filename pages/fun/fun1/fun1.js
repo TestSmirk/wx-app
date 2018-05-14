@@ -28,11 +28,11 @@ Page({
       }, {
         "name": "progress",
       }, {
-        "name": "tencent"
+        "name": "button"
       }, {
-        "name": "ali",
+        "name": "checkbox",
       }, {
-        "name": "tencent"
+        "name": "form"
       }, {
         "name": "ali",
       }, {
@@ -133,6 +133,15 @@ Page({
         break;
       case "progress":
         navUrl = "progress/progress"
+        break;
+        case "button":
+        navUrl = "button/button"
+        break
+        case "checkbox":
+        navUrl = "checkbox/checkbox"
+        break;
+        case "form":
+        navUrl = "form/form"
         break;
     }
     wx.navigateTo({

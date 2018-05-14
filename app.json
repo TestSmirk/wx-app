@@ -10,7 +10,10 @@
     "pages/fun/fun1/icon/icon",
     "pages/fun/fun1/text/text",
     "pages/fun/fun1/rich-text/rich-text",
-    "pages/fun/fun1/progress/progress"
+    "pages/fun/fun1/progress/progress",
+    "pages/fun/fun1/button/button",
+    "pages/fun/fun1/checkbox/checkbox",
+    "pages/fun/fun1/form/form"
   ],
   "tabBar": {
     "list": [
